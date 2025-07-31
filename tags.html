@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Tags Showcase - Unique Edition</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 20px;
+line-height: 1.6;
+background-color: #f4f4f4;
+color: #333;
+}
+header {
+background-color: #0056b3;
+color: white;
+padding: 15px 0;
+text-align: center;
+margin-bottom: 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+color: #0056b3;
+border-bottom: 2px solid #ccc;
+padding-bottom: 5px;
+margin-top: 40px;
+}
+section {
+background-color: white;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.code-example {
+background-color: #e9e9e9;
+padding: 10px;
+border-left: 5px solid #007bff;
+margin: 15px 0;
+font-family: 'Courier New', Courier, monospace;
+white-space: pre-wrap;
+word-wrap: break-word;
+}
+.browser-view {
+background-color: #d1e7dd;
+padding: 10px;
+border: 1px dashed #28a745;
+margin: 15px 0;
+font-style: italic;
+}
+table {
+width: 100%;
+border-collapse: collapse;
+margin: 20px 0;
+}
+table, th, td {
+border: 1px solid #ddd;
+}
+th, td {
+padding: 8px;
+text-align: left;
+}
+th {
+background-color: #f2f2f2;
+}
+.tip {
+color: #666;
+font-size: 0.9em;
+}
+footer {
+text-align: center;
+margin-top: 50px;
+padding: 20px;
+background-color: #eee;
+color: #555;
+border-top: 1px solid #ccc;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Explore HTML Tags - A Unique Journey</h1>
+<p>This page showcases all the essential HTML tags, similar to our reference document, but with a unique touch!</p>
+</header>
+<main>
+<section id="document-structure">
+<h2>Document Structure & Comments</h2>
+<h3>The HTML Comment Tag ``</h3>
+<p><strong>Name:</strong> comment</p>
+<div class="code-example">
+&lt;!--This can be viewed in the HTML part of a document--&gt;
+</div>
+<p><strong>Browser View:</strong> Nothing will show <span class="tip">(Tip)</span></p>
+<h3>The Anchor Tag `&lt;a&gt;`</h3>
+<p><strong>Name:</strong> anchor</p>
+<div class="code-example">
+&lt;a href=&quot;http://www.domain.com/&quot;&gt;Visit Our Site&lt;/a&gt;
+</div>
+<p><strong>Browser View:</strong> <a href="http://www.domain.com/">Visit Our Site</a> <span class="tip">(Tip)</span></p>
+<h3>The Body Tag `&lt;body&gt;`</h3>
+<p><strong>Name:</strong> body of HTML document</p>
+<div class="code-example">
+&lt;body&gt;The content of your HTML page&lt;/body&gt;
+</div>
+<p><strong>Browser View:</strong> Contents of your web page <span class="tip">(Tip)</span></p>
+<h3>The Head Tag `&lt;head&gt;`</h3>
+<p><strong>Name:</strong> heading of HTML document</p>
+<div class="code-example">
+&lt;head&gt;Contains elements describing the document&lt;/head&gt;
+</div>
+<p><strong>Browser View:</strong> Nothing will show</p>
+<h3>The HTML Tag `&lt;html&gt;`</h3>
+<p><strong>Name:</strong> hypertext markup language</p>
+<div class="code-example">
+&lt;html&gt;<br>
+&nbsp;&lt;head&gt;<br>
+&nbsp;&nbsp;&lt;meta&gt;<br>
+&nbsp;&nbsp;&lt;title&gt;Title of your web page&lt;/title&gt;<br>
+&nbsp;&lt;/head&gt;<br>
+&nbsp;&lt;body&gt;HTML web page contents<br>
+&nbsp;&lt;/body&gt;<br>
+&lt;/html&gt;
+</div>
+<p><strong>Browser View:</strong> Contents of your web page</p>
+<h3>The Title Tag `&lt;title&gt;`</h3>
+<p><strong>Name:</strong> document title</p>
+<div class="code-example">
+&lt;title&gt;Title of your HTML page&lt;/title&gt;
+</div>
+<p><strong>Browser View:</strong> Title of your web page will be viewable in the title bar. <span class="tip">(Tip)</span></p>
+</section>
+<section id="text-formatting">
+<h2>Text Formatting Tags</h2>
+<h3>The Bold Tag `&lt;b&gt;`</h3>
+<p><strong>Name:</strong> bold</p>
+<div class="code-example">
+&lt;b&gt;Example&lt;/b&gt;
+</div>
+<div class="browser-view">
+<b>Example</b>
+</div>
+<h3>The Big Text Tag `&lt;big&gt;`</h3>
+<p><strong>Name:</strong> big (text)</p>
+<div class="code-example">
+&lt;big&gt;Example&lt;/big&gt;
+</div>
+<div class="browser-view">
+<big>Example</big> <span class="tip">(Tip)</span>
+</div>
+<h3>The Line Break Tag `&lt;br&gt;`</h3>
+<p><strong>Name:</strong> line break</p>
+<div class="code-example">
+The contents of your page&lt;br&gt;The contents of your page
+</div>
+<div class="browser-view">
+The contents of your web page<br>The contents of your web page
+</div>
+<h3>The Emphasis Tag `&lt;em&gt;`</h3>
+<p><strong>Name:</strong> emphasis</p>
+<div class="code-example">
+This is an &lt;em&gt;Example&lt;/em&gt; of using the emphasis tag
+</div>
+<div class="browser-view">
+This is an <em>Example</em> of using the emphasis tag
+</div>
+<h3>The Font Tag `&lt;font&gt;` (Deprecated in HTML5, use CSS)</h3>
+<p><strong>Name:</strong> font</p>
+<div class="code-example">
+&lt;font face=&quot;Times New Roman&quot;&gt;Example&lt;/font&gt;
+</div>
+<div class="browser-view">
+<font face="Times New Roman">Example</font> <span class="tip">(Tip)</span>
+</div>
+<div class="code-example">
+&lt;font face=&quot;Times New Roman&quot; size=&quot;4&quot;&gt;Example&lt;/font&gt;
+</div>
+<div class="browser-view">
+<font face="Times New Roman" size="4">Example</font> <span class="tip">(Tip)</span>
+</div>
+<div class="code-example">
+&lt;font face=&quot;Times New Roman&quot; size=&quot;+3&quot; color=&quot;#ff0000&quot;&gt;Example&lt;/font&gt;
+</div>
+<div class="browser-view">
+<font face="Times New Roman" size="+3" color="#ff0000">Example</font> <span class="tip">(Tip)</span>
+</div>
+<h3>Heading Tags `&lt;h1&gt;` to `&lt;h6&gt;`</h3>
+<p><strong>Names:</strong> heading 1, heading 2, etc.</p>
+<div class="code-example">
+&lt;h1&gt;Heading 1 Example&lt;/h1&gt;<br>
+&lt;h2&gt;Heading 2 Example&lt;/h2&gt;<br>
+&lt;h3&gt;Heading 3 Example&lt;/h3&gt;<br>
+&lt;h4&gt;Heading 4 Example&lt;/h4&gt;<br>
+&lt;h5&gt;Heading 5 Example&lt;/h5&gt;<br>
+&lt;h6&gt;Heading 6 Example&lt;/h6&gt;
+</div>
+<div class="browser-view">
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+</div>
+<h3>The Italic Tag `&lt;i&gt;`</h3>
+<p><strong>Name:</strong> italic</p>
+<div class="code-example">
+&lt;i&gt;Example&lt;/i&gt;
+</div>
+<div class="browser-view">
+<i>Example</i>
+</div>
+<h3>The Paragraph Tag `&lt;p&gt;`</h3>
+<p><strong>Name:</strong> paragraph</p>
+<div class="code-example">
+This is an example displaying the use of the paragraph tag. &lt;p&gt; This will create a line break and a space between lines.
+</div>
+<div class="browser-view">
+This is an example displaying the use of the paragraph tag.
+<p>This will create a line break and a space between lines.</p>
+</div>
+<p><strong>Attributes Example 1: `align="left"`</strong></p>
+<div class="code-example">
+&lt;p align=&quot;left&quot;&gt;<br>
+This is an example&lt;br&gt;<br>
+displaying the use&lt;br&gt;<br>
+of the paragraph tag. &lt;br&gt;
+</div>
+<div class="browser-view" style="text-align: left;">
+This is an example<br>
+displaying the use<br>
+of the paragraph tag.
+</div>
+<p><strong>Attributes Example 2: `align="right"`</strong></p>
+<div class="code-example">
+&lt;p align=&quot;right&quot;&gt;<br>
+This is an example&lt;br&gt;<br>
+displaying the use&lt;br&gt;<br>
+of the paragraph tag. &lt;br&gt;
+</div>
+<div class="browser-view" style="text-align: right;">
+This is an example<br>
+displaying the use<br>
+of the paragraph tag.
+</div>
+<p><strong>Attributes Example 3: `align="center"`</strong></p>
+<div class="code-example">
+&lt;p align=&quot;center&quot;&gt;<br>
+This is an example&lt;br&gt;<br>
+displaying the use&lt;br&gt;<br>
+of the paragraph tag.
+</div>
+<div class="browser-view" style="text-align: center;">
+This is an example<br>
+displaying the use<br>
+of the paragraph tag.
+</div>
+<h3>The Small Text Tag `&lt;small&gt;`</h3>
+<p><strong>Name:</strong> small (text)</p>
+<div class="code-example">
+&lt;small&gt;Example&lt;/small&gt;
+</div>
+<div class="browser-view">
+<small>Example</small> <span class="tip">(Tip)</span>
+</div>
+<h3>The Strikethrough Tag `&lt;strike&gt;` (Deprecated)</h3>
+<p><strong>Name:</strong> deleted text</p>
+<div class="code-example">
+&lt;strike&gt;Example&lt;/strike&gt;
+</div>
+<div class="browser-view">
+<strike>Example</strike>
+</div>
+<h3>The Strong Emphasis Tag `&lt;strong&gt;`</h3>
+<p><strong>Name:</strong> strong emphasis</p>
+<div class="code-example">
+&lt;strong&gt;Example&lt;/strong&gt;
+</div>
+<div class="browser-view">
+<strong>Example</strong>
+</div>
+<h3>The Teletype Tag `&lt;tt&gt;` (Deprecated)</h3>
+<p><strong>Name:</strong> teletype</p>
+<div class="code-example">
+&lt;tt&gt;Example&lt;/tt&gt;
+</div>
+<div class="browser-view">
+<tt>Example</tt>
+</div>
+<h3>The Underline Tag `&lt;u&gt;` (Deprecated in HTML5, use CSS)</h3>
+<p><strong>Name:</strong> underline</p>
+<div class="code-example">
+&lt;u&gt;Example&lt;/u&gt;
+</div>
+<div class="browser-view">
+<u>Example</u>
+</div>
+</section>
+<section id="list-tags">
+<h2>List Tags</h2>
+<h3>Definition List Tags: `&lt;dl&gt;`, `&lt;dt&gt;`, `&lt;dd&gt;`</h3>
+<p><strong>Names:</strong> definition list, definition term, definition description</p>
+<div class="code-example">
+&lt;dl&gt;<br>
+&nbsp;&lt;dt&gt;Definition Term&lt;/dt&gt;<br>
+&nbsp;&lt;dd&gt;Definition of the term&lt;/dd&gt;<br>
+&nbsp;&lt;dt&gt;Definition Term&lt;/dt&gt;<br>
+&nbsp;&lt;dd&gt;Definition of the term&lt;/dd&gt;<br>
+&lt;/dl&gt;
+</div>
+<div class="browser-view">
+<dl>
+<dt>Definition Term</dt>
+<dd>Definition of the term</dd>
+<dt>Definition Term</dt>
+<dd>Definition of the term</dd>
+</dl>
+</div>
+<h3>List Item Tag `&lt;li&gt;`</h3>
+<p><strong>Name:</strong> list item</p>
+<p>This tag is always used inside `&lt;ol&gt;`, `&lt;ul&gt;`, or `&lt;menu&gt;`.</p>
+<h3>Menu Tag `&lt;menu&gt;` (Example from PDF)</h3>
+<p><strong>Name:</strong> menu</p>
+<p>Example 1:</p>
+<div class="code-example">
+&lt;menu&gt;<br>
+&nbsp;&lt;li type=&quot;disc&quot;&gt;List item 1&lt;/li&gt;<br>
+&nbsp;&lt;li type=&quot;circle&quot;&gt;List item 2&lt;/li&gt;<br>
+&nbsp;&lt;li type=&quot;square&quot;&gt;List item 3&lt;/li&gt;<br>
+&lt;/MENU&gt;
+</div>
+<div class="browser-view">
+<menu>
+<li type="disc">List item 1</li>
+<li type="circle">List item 2</li>
+<li type="square">List item 3</li>
+</menu>
+</div>
+<h3>Ordered List Tag `&lt;ol&gt;`</h3>
+<p><strong>Name:</strong> ordered list</p>
+<p>Example: Numbered List</p>
+<div class="code-example">
+&lt;ol&gt;<br>
+&nbsp;&lt;li&gt;List item 1&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 2&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 3&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 4&lt;/li&gt;<br>
+&lt;/ol&gt;
+</div>
+<div class="browser-view">
+<ol>
+<li>List item 1</li>
+<li>List item 2</li>
+<li>List item 3</li>
+<li>List item 4</li>
+</ol>
+</div>
+<p>Example: Numbered Special Start (`start="5"`) </p>
+<div class="code-example">
+&lt;ol start=&quot;5&quot;&gt;<br>
+&nbsp;&lt;li&gt;List item 1&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 2&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 3&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 4&lt;/li&gt;<br>
+&lt;/ol&gt;
+</div>
+<div class="browser-view">
+<ol start="5">
+<li>List item 1</li>
+<li>List item 2</li>
+<li>List item 3</li>
+<li>List item 4</li>
+</ol>
+</div>
+<p>Example: Lowercase Letters (`type="a"`) </p>
+<div class="code-example">
+&lt;ol type=&quot;a&quot;&gt;<br>
+&nbsp;&lt;li&gt;List item 1&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 2&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 3&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 4&lt;/li&gt;<br>
+&lt;/ol&gt;
+</div>
+<div class="browser-view">
+<ol type="a">
+<li>List item 1</li>
+<li>List item 2</li>
+<li>List item 3</li>
+<li>List item 4</li>
+</ol>
+</div>
+<p>Example: Capital Letters (`type="A"`) </p>
+<div class="code-example">
+&lt;ol type=&quot;A&quot;&gt;<br>
+&nbsp;&lt;li&gt;List item 1&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 2&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 3&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 4&lt;/li&gt;<br>
+&lt;/ol&gt;
+</div>
+<div class="browser-view">
+<ol type="A">
+<li>List item 1</li>
+<li>List item 2</li>
+<li>List item 3</li>
+<li>List item 4</li>
+</ol>
+</div>
+<p>Example: Capital Letters Special Start (`type="A" start="3"`) </p>
+<div class="code-example">
+&lt;ol type=&quot;A&quot; start=&quot;3&quot;&gt;<br>
+&nbsp;&lt;li&gt;List item 1&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 2&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 3&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 4&lt;/li&gt;<br>
+&lt;/ol&gt;
+</div>
+<div class="browser-view">
+<ol type="A" start="3">
+<li>List item 1</li>
+<li>List item 2</li>
+<li>List item 3</li>
+<li>List item 4</li>
+</ol>
+</div>
+<p>Example: Lowercase Roman Numerals (`type="i"`) </p>
+<div class="code-example">
+&lt;ol type=&quot;i&quot;&gt;<br>
+&nbsp;&lt;li&gt;List item 1&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 2&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 3&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 4&lt;/li&gt;<br>
+&lt;/ol&gt;
+</div>
+<div class="browser-view">
+<ol type="i">
+<li>List item 1</li>
+<li>List item 2</li>
+<li>List item 3</li>
+<li>List item 4</li>
+</ol>
+</div>
+<p>Example: Capital Roman Numerals (`type="I"`) </p>
+<div class="code-example">
+&lt;ol type=&quot;I&quot;&gt;<br>
+&nbsp;&lt;li&gt;List item 1&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 2&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 3&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 4&lt;/li&gt;<br>
+&lt;/ol&gt;
+</div>
+<div class="browser-view">
+<ol type="I">
+<li>List item 1</li>
+<li>List item 2</li>
+<li>List item 3</li>
+<li>List item 4</li>
+</ol>
+</div>
+<p>Example: Capital Roman Numerals Special Start (`type="I" start="7"`) </p>
+<div class="code-example">
+&lt;ol type=&quot;I&quot; start=&quot;7&quot;&gt;<br>
+&nbsp;&lt;li&gt;List item 1&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 2&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 3&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 4&lt;/li&gt;<br>
+&lt;/ol&gt;
+</div>
+<div class="browser-view">
+<ol type="I" start="7">
+<li>List item 1</li>
+<li>List item 2</li>
+<li>List item 3</li>
+<li>List item 4</li>
+</ol>
+</div>
+<h3>Unordered List Tag `&lt;ul&gt;`</h3>
+<p><strong>Name:</strong> unordered list</p>
+<p>Example 1:</p>
+<div class="code-example">
+&lt;ul&gt;<br>
+&nbsp;&lt;li&gt;List item 1&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 2&lt;/li&gt;<br>
+&lt;/ul&gt;
+</div>
+<div class="browser-view">
+<ul>
+<li>List item 1</li>
+<li>List item 2</li>
+</ul>
+</div>
+<p>Example 2: Nested Lists with `type="disc"` and `type="circle"`</p>
+<div class="code-example">
+&lt;ul type=&quot;disc&quot;&gt;<br>
+&nbsp;&lt;li&gt;List item 1&lt;/li&gt;<br>
+&nbsp;&lt;li&gt;List item 2&lt;/li&gt;<br>
+&nbsp;&lt;ul type=&quot;circle&quot;&gt;<br>
+&nbsp;&nbsp;&lt;li&gt;List item 3&lt;/li&gt;<br>
+&nbsp;&nbsp;&lt;li&gt;List item 4&lt;/li&gt;<br>
+&nbsp;&lt;/ul&gt;<br>
+&lt;/ul&gt;
+</div>
+<div class="browser-view">
+<ul type="disc">
+<li>List item 1</li>
+<li>List item 2</li>
+<ul type="circle">
+<li>List item 3</li>
+<li>List item 4</li>
+</ul>
+</ul>
+</div>
+</section>
+<section id="media-elements">
+<h2>Media & Other Elements</h2>
+<h3>Embed Object Tag `&lt;embed&gt;` (Often replaced by `&lt;audio&gt;`, `&lt;video&gt;`, `&lt;iframe&gt;`)</h3>
+<p><strong>Name:</strong> embed object</p>
+<div class="code-example">
+&lt;embed src=&quot;yourfile.mid&quot; width=&quot;100%&quot; height=&quot;60&quot; align=&quot;center&quot;&gt;
+</div>
+<p><strong>Browser View:</strong> (Tip - Functionality depends on browser support for .mid files)</p>
+<div class="code-example">
+&lt;embed src=&quot;yourfile.mid&quot; autostart=&quot;true&quot; hidden=&quot;false&quot; loop=&quot;false&quot;&gt;<br>
+&lt;noembed&gt;&lt;bgsound src=&quot;yourfile.mid&quot; loop=&quot;1&quot;&gt;&lt;/noembed&gt;
+</div>
+<p><strong>Browser View:</strong> Music will begin playing when your page is loaded and will only play one time. A control panel will be displayed to enable your visitors to stop the music.</p>
+<h3>Horizontal Rule Tag `&lt;hr&gt;`</h3>
+<p><strong>Name:</strong> horizontal rule</p>
+<div class="code-example">
+&lt;hr /&gt;
+</div>
+<div class="browser-view">
+<hr />
+</div>
+<div class="code-example">
+&lt;hr width=&quot;50%&quot; size=&quot;3&quot;/&gt;
+</div>
+<div class="browser-view">
+<hr width="50%" size="3"/>
+</div>
+<div class="code-example">
+&lt;hr width=&quot;50%&quot; size=&quot;3&quot; noshade /&gt;
+</div>
+<div class="browser-view">
+<hr width="50%" size="3" noshade />
+</div>
+<p>Internet Explorer Specific `&lt;hr&gt;` (Not universally supported):</p>
+<div class="code-example">
+&lt;hr width=&quot;75%&quot; color=&quot;#ff0000&quot; size=&quot;4&quot; /&gt;
+</div>
+<div class="browser-view">
+<hr width="75%" color="#ff0000" size="4" />
+</div>
+<div class="code-example">
+&lt;hr width=&quot;25%&quot; color=&quot;#6699ff&quot; size=&quot;6&quot; /&gt;
+</div>
+<div class="browser-view">
+<hr width="25%" color="#6699ff" size="6" />
+</div>
+<h3>Image Tag `&lt;img&gt;`</h3>
+<p><strong>Name:</strong> image</p>
+<div class="code-example">
+&lt;img src=&quot;Earth.gif&quot; width=&quot;41&quot; height=&quot;41&quot; border=&quot;0&quot; alt=&quot;text describing the image&quot; /&gt;
+</div>
+<div class="browser-view">
+<img src="https://via.placeholder.com/41x41?text=Image" width="41" height="41" border="0" alt="Placeholder image for Earth.gif" /> <span class="tip">(Tip - Placeholder used as actual image not available)</span>
+</div>
+<h3>Marquee Tag `&lt;marquee&gt;` (Internet Explorer Specific - Deprecated)</h3>
+<p><strong>Name:</strong> scrolling text</p>
+<div class="code-example">
+&lt;marquee bgcolor=&quot;#cccccc&quot; loop=&quot;-1&quot; scrollamount=&quot;2&quot; width=&quot;100%&quot;&gt;Example Marquee&lt;/marquee&gt;
+</div>
+<div class="browser-view">
+<marquee bgcolor="#cccccc" loop="-1" scrollamount="2" width="100%">Example Marquee</marquee> <span class="tip">(Tip)</span>
+</div>
+</section>
+<section id="form-elements">
+<h2>Form Elements</h2>
+<h3>Form Tag `&lt;form&gt;`</h3>
+<p><strong>Name:</strong> form</p>
+<div class="code-example">
+&lt;form action=&quot;mailto:you@yourdomain.com&quot;&gt;<br>
+Name: &lt;input name=&quot;Name&quot; value=&quot;&quot; size=&quot;10&quot;&gt;&lt;br&gt;<br>
+Email: &lt;input name=&quot;Email&quot; value=&quot;&quot; size=&quot;10&quot;&gt;&lt;br&gt;<br>
+&lt;center&gt;&lt;input type=&quot;submit&quot;&gt;&lt;/center&gt;<br>
+&lt;/form&gt;
+</div>
+<div class="browser-view">
+<form action="mailto:example@yourdomain.com">
+Name: <input name="Name" value="" size="10"><br>
+Email: <input name="Email" value="" size="10"><br>
+<center><input type="submit"></center>
+</form> <span class="tip">(Tip)</span>
+</div>
+<h3>Input Field Tag `&lt;input&gt;`</h3>
+<p><strong>Name:</strong> input field</p>
+<p>Example 1: Text and Submit Input</p>
+<div class="code-example">
+&lt;form method=post action=&quot;/cgi-bin/example.cgi&quot;&gt;<br>
+&nbsp;&lt;input type=&quot;text&quot; size=&quot;10&quot; maxlength=&quot;30&quot;&gt;<br>
+&nbsp;&lt;input type=&quot;Submit&quot; value=&quot;Submit&quot;&gt;<br>
+&lt;/form&gt;
+</div>
+<div class="browser-view">
+<form method="post" action="#">
+<input type="text" size="10" maxlength="30">
+<input type="submit" value="Submit">
+</form> <span class="tip">(Tip)</span>
+</div>
+<p>Example 2: Styled Input (Internet Explorer specific styling properties)</p>
+<div class="code-example">
+&lt;form method=post action=&quot;/cgi-bin/example.cgi&quot;&gt;<br>
+&nbsp;&lt;input type=&quot;text&quot; style=&quot;color: #ffffff; font-family: Verdana; font-weight: bold; font-size: 12px; background-color: #72a4d2;&quot; size=&quot;10&quot; maxlength=&quot;30&quot;&gt;<br>
+&nbsp;&lt;input type=&quot;Submit&quot; value=&quot;Submit&quot;&gt;<br>
+&lt;/form&gt;
+</div>
+<div class="browser-view">
+<form method="post" action="#">
+<input type="text" style="color: #ffffff; font-family: Verdana; font-weight: bold; font-size: 12px; background-color: #72a4d2;" size="10" maxlength="30">
+<input type="submit" value="Submit">
+</form> <span class="tip">(Tip)</span>
+</div>
+<p>Example 3: Image Input Button</p>
+<div class="code-example">
+&lt;form method=post action=&quot;/cgi-bin/example.cgi&quot;&gt;<br>
+&nbsp;&lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#8463ff&quot;&gt;&lt;input type=&quot;text&quot; size=&quot;10&quot; maxlength=&quot;30&quot;&gt;&lt;/td&gt;&lt;td bgcolor=&quot;#8463ff&quot; valign=&quot;Middle&quot;&gt; &lt;input type=&quot;image&quot; name=&quot;submit&quot; src=&quot;yourimage.gif&quot;&gt;&lt;/td&gt;&lt;/tr&gt; &lt;/table&gt;<br>
+&lt;/form&gt;
+</div>
+<div class="browser-view">
+<form method="post" action="#">
+<table border="0" cellspacing="0" cellpadding="2"><tr><td bgcolor="#8463ff"><input type="text" size="10" maxlength="30"></td><td bgcolor="#8463ff" valign="middle"> <input type="image" name="submit" src="https://via.placeholder.com/30x20?text=GO"></td></tr> </table>
+</form> <span class="tip">(Tip - Placeholder for image)</span>
+</div>
+<p>Example 4: Textarea, Submit, and Reset Buttons</p>
+<div class="code-example">
+&lt;form method=post action=&quot;/cgi-bin/example.cgi&quot;&gt;<br>
+&nbsp;Enter Your Comments:&lt;br&gt;<br>
+&nbsp;&lt;textarea wrap=&quot;virtual&quot; name=&quot;Comments&quot; rows=3 cols=20 maxlength=100&gt;&lt;/textarea&gt;&lt;br&gt;<br>
+&nbsp;&lt;input type=&quot;Submit&quot; value=&quot;Submit&quot;&gt;<br>
+&nbsp;&lt;input type=&quot;Reset&quot; value=&quot;Clear&quot;&gt;<br>
+&lt;/form&gt;
+</div>
+<div class="browser-view">
+<form method="post" action="#">
+Enter Your Comments:<br>
+<textarea wrap="virtual" name="Comments" rows="3" cols="20" maxlength="100"></textarea><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Clear">
+</form>
+</div>
+<h3>Select/Option Tags `&lt;select&gt;`, `&lt;option&gt;`</h3>
+<p><strong>Names:</strong> listbox, option</p>
+<p>Example 5: Dropdown List</p>
+<div class="code-example">
+&lt;form method=post action=&quot;/cgi-bin/example.cgi&quot;&gt;<br>
+&nbsp;&lt;center&gt;<br>
+&nbsp;Select an option:<br>
+&nbsp;&lt;select&gt;<br>
+&nbsp;&nbsp;&lt;option &gt;option 1&lt;/option&gt;<br>
+&nbsp;&nbsp;&lt;option selected&gt;option 2&lt;/option&gt;<br>
+&nbsp;&nbsp;&lt;option&gt;option 3&lt;/option&gt;<br>
+&nbsp;&nbsp;&lt;option&gt;option 4&lt;/option&gt;<br>
+&nbsp;&nbsp;&lt;option&gt;option 5&lt;/option&gt;<br>
+&nbsp;&nbsp;&lt;option&gt;option 6&lt;/option&gt;<br>
+&nbsp;&lt;/select&gt;&lt;br&gt;<br>
+&nbsp;&lt;input type=&quot;Submit&quot; value=&quot;Submit&quot;&gt;&lt;/center&gt;<br>
+&lt;/form&gt;
+</div>
+<div class="browser-view">
+<form method="post" action="#">
+<center>
+Select an option:
+<select>
+<option>option 1</option>
+<option selected>option 2</option>
+<option>option 3</option>
+<option>option 4</option>
+<option>option 5</option>
+<option>option 6</option>
+</select><br>
+<input type="submit" value="Submit"></center>
+</form> <span class="tip">(Tip)</span>
+</div>
+<p>Example 6: Radio Buttons and Checkboxes</p>
+<div class="code-example">
+&lt;form method=post action=&quot;/cgi-bin/example.cgi&quot;&gt;<br>
+&nbsp;Select an option: &lt;br&gt;<br>
+&nbsp;&lt;input type=&quot;radio&quot; name=&quot;option&quot;&gt; Option 1<br>
+&nbsp;&lt;input type=&quot;radio&quot; name=&quot;option&quot; checked&gt; Option 2<br>
+&nbsp;&lt;input type=&quot;radio&quot; name=&quot;option&quot;&gt; Option 3<br>
+&nbsp;&lt;br&gt;<br>
+&nbsp;Select an option: &lt;br&gt;<br>
+&nbsp;&lt;input type=&quot;checkbox&quot; name=&quot;selection&quot;&gt; Selection 1<br>
+&nbsp;&lt;input type=&quot;checkbox&quot; name=&quot;selection&quot; checked&gt; Selection 2<br>
+&nbsp;&lt;input type=&quot;checkbox&quot; name=&quot;selection&quot;&gt; Selection 3<br>
+&nbsp;&lt;input type=&quot;Submit&quot; value=&quot;Submit&quot;&gt;<br>
+&lt;/form&gt;
+</div>
+<div class="browser-view">
+<form method="post" action="#">
+Select an option: <br>
+<input type="radio" name="option"> Option 1<br>
+<input type="radio" name="option" checked> Option 2<br>
+<input type="radio" name="option"> Option 3<br>
+<br>
+Select an option: <br>
+<input type="checkbox" name="selection"> Selection 1<br>
+<input type="checkbox" name="selection" checked> Selection 2<br>
+<input type="checkbox" name="selection"> Selection 3<br>
+<input type="submit" value="Submit">
+</form>
+</div>
+</section>
+<section id="table-tags">
+<h2>Table Tags</h2>
+<h3>Table Tag `&lt;table&gt;`</h3>
+<p><strong>Name:</strong> table</p>
+<p>Example 1: Basic Table</p>
+<div class="code-example">
+&lt;table border=&quot;4&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;&gt;<br>
+&nbsp;&lt;tr&gt;<br>
+&nbsp;&nbsp;&lt;td&gt;Column 1&lt;/td&gt;<br>
+&nbsp;&nbsp;&lt;td&gt;Column 2&lt;/td&gt;<br>
+&nbsp;&lt;/tr&gt;<br>
+&lt;/table&gt;
+</div>
+<div class="browser-view">
+<table border="4" cellpadding="2" cellspacing="2" width="100%">
+<tr>
+<td>Column 1</td>
+<td>Column 2</td>
+</tr>
+</table> <span class="tip">(Tip)</span>
+</div>
+<p>Example 2: Table with Border Color (Internet Explorer specific `bordercolor`)</p>
+<div class="code-example">
+&lt;table border=&quot;2&quot; bordercolor=&quot;#336699&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;&gt;<br>
+&nbsp;&lt;tr&gt;<br>
+&nbsp;&nbsp;&lt;td&gt;Column 1&lt;/td&gt;<br>
+&nbsp;&nbsp;&lt;td&gt;Column 2&lt;/td&gt;<br>
+&nbsp;&lt;/tr&gt;<br>
+&lt;/table&gt;
+</div>
+<div class="browser-view">
+<table border="2" style="border-color:#336699;" cellpadding="2" cellspacing="2" width="100%">
+<tr>
+<td>Column 1</td>
+<td>Column 2</td>
+</tr>
+</table> <span class="tip">(Tip)</span>
+</div>
+<p>Example 3: Table with Row Background Colors</p>
+<div class="code-example">
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;&gt;<br>
+&nbsp;&lt;tr&gt;<br>
+&nbsp;&nbsp;&lt;td bgcolor=&quot;#cccccc&quot;&gt;Column 1&lt;/td&gt;<br>
+&nbsp;&nbsp;&lt;td bgcolor=&quot;#cccccc&quot;&gt;Column 2&lt;/td&gt;<br>
+&nbsp;&lt;/tr&gt;<br>
+&nbsp;&lt;tr&gt;<br>
+&nbsp;&nbsp;&lt;td&gt;Row 2&lt;/td&gt;<br>
+&nbsp;&nbsp;&lt;td&gt;Row 2&lt;/td&gt;<br>
+&nbsp;&lt;/tr&gt;<br>
+&lt;/table&gt;
+</div>
+<div class="browser-view">
+<table cellpadding="2" cellspacing="2" width="100%">
+<tr>
+<td bgcolor="#cccccc">Column 1</td>
+<td bgcolor="#cccccc">Column 2</td>
+</tr>
+<tr>
+<td>Row 2</td>
+<td>Row 2</td>
+</tr>
+</table> <span class="tip">(Tip)</span>
+</div>
+<h3>Table Data Tag `&lt;td&gt;`</h3>
+<p><strong>Name:</strong> table data</p>
+<div class="code-example">
+&lt;table border=&quot;2&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;&gt;<br>
+&nbsp;&lt;tr&gt;<br>
+&nbsp;&nbsp;&lt;td&gt;Column 1&lt;/td&gt;<br>
+&nbsp;&nbsp;&lt;td&gt;Column 2&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;/table&gt;
+</div>
+<div class="browser-view">
+<table border="2" cellpadding="2" cellspacing="2" width="100%">
+<tr>
+<td>Column 1</td>
+<td>Column 2</td>
+</tr>
+</table>
+</div>
+<h3>Table Header Tag `&lt;th&gt;`</h3>
+<p><strong>Name:</strong> table header</p>
+<div class="code-example">
+&lt;div align=&quot;center&quot;&gt;<br>
+&nbsp;&lt;table&gt;<br>
+&nbsp;&nbsp;&lt;tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 1&lt;/th&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 2&lt;/th&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;th&gt;Column 3&lt;/th&gt;<br>
+&nbsp;&nbsp;&lt;/tr&gt;<br>
+&nbsp;&nbsp;&lt;tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 2&lt;/td&gt;<br>
+&nbsp;&nbsp;&lt;/tr&gt;<br>
+&nbsp;&nbsp;&lt;tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 3&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 3&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 3&lt;/td&gt;<br>
+&nbsp;&nbsp;&lt;/tr&gt;<br>
+&nbsp;&nbsp;&lt;tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 4&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 4&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;td&gt;Row 4&lt;/td&gt;<br>
+&nbsp;&nbsp;&lt;/tr&gt;<br>
+&nbsp;&lt;/table&gt;<br>
+&lt;/div&gt;
+</div>
+<div class="browser-view">
+<div align="center">
+<table>
+<tr>
+<th>Column 1</th>
+<th>Column 2</th>
+<th>Column 3</th>
+</tr>
+<tr>
+<td>Row 2</td>
+<td>Row 2</td>
+<td>Row 2</td>
+</tr>
+<tr>
+<td>Row 3</td>
+<td>Row 3</td>
+<td>Row 3</td>
+</tr>
+<tr>
+<td>Row 4</td>
+<td>Row 4</td>
+<td>Row 4</td>
+</tr>
+</table>
+</div>
+</div>
+<h3>Table Row Tag `&lt;tr&gt;`</h3>
+<p><strong>Name:</strong> table row</p>
+<div class="code-example">
+&lt;table border=&quot;2&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;&gt;<br>
+&nbsp;&lt;tr&gt;<br>
+&nbsp;&nbsp;&lt;td&gt;Column 1&lt;/td&gt;<br>
+&nbsp;&nbsp;&lt;td&gt;Column 2&lt;/td&gt;<br>
+&nbsp;&lt;/tr&gt;<br>
+&lt;/table&gt;
+</div>
+<div class="browser-view">
+<table border="2" cellpadding="2" cellspacing="2" width="100%">
+<tr>
+<td>Column 1</td>
+<td>Column 2</td>
+</tr>
+</table>
+</div>
+</section>
+<section id="metadata-tags">
+<h2>Metadata Tags (`&lt;meta&gt;`)</h2>
+<p><strong>Name:</strong> meta</p>
+<p>These tags provide metadata about the HTML document and are not directly displayed on the page.</p>
+<h3>Meta Description</h3>
+<div class="code-example">
+&lt;meta name=&quot;Description&quot; content=&quot;Description of your site&quot;&gt;
+</div>
+<p><strong>Browser View:</strong> Nothing will show <span class="tip">(Tip)</span></p>
+<h3>Meta Keywords</h3>
+<div class="code-example">
+&lt;meta name=&quot;keywords&quot; content=&quot;keywords describing your site&quot;&gt;
+</div>
+<p><strong>Browser View:</strong> Nothing will show <span class="tip">(Tip)</span></p>
+<h3>Meta Refresh</h3>
+<div class="code-example">
+&lt;meta HTTP-EQUIV=&quot;Refresh&quot; CONTENT=&quot;4; URL=http//www.yourdomain.com/&quot;&gt;
+</div>
+<p><strong>Browser View:</strong> Nothing will show <span class="tip">(Tip)</span></p>
+<h3>Meta Pragma (No Cache)</h3>
+<div class="code-example">
+&lt;meta http-equiv=&quot;Pragma&quot; content=&quot;no-cache&quot;&gt;
+</div>
+<p><strong>Browser View:</strong> Nothing will show <span class="tip">(Tip)</span></p>
+<h3>Meta Rating</h3>
+<div class="code-example">
+&lt;meta name=&quot;rating&quot; content=&quot;General&quot;&gt;
+</div>
+<p><strong>Browser View:</strong> Nothing will show <span class="tip">(Tip)</span></p>
+<h3>Meta Robots (Index/Follow)</h3>
+<div class="code-example">
+&lt;meta name=&quot;robots&quot; content=&quot;all&quot;&gt;
+</div>
+<p><strong>Browser View:</strong> Nothing will show <span class="tip">(Tip)</span></p>
+<h3>Meta Robots (No Index, Follow)</h3>
+<div class="code-example">
+&lt;meta name=&quot;robots&quot; content=&quot;noindex, follow&quot;&gt;
+</div>
+<p><strong>Browser View:</strong> Nothing will show <span class="tip">(Tip)</span></p>
+</section>
+</main>
+<footer>
+<p>&copy; 2025 HTML Tags Showcase. All rights reserved.</p>
+<p>This page is created for educational purposes, demonstrating various HTML tags from the provided PDF document.</p>
+</footer>
+</body>
+</html>
